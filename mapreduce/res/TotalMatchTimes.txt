@@ -1,0 +1,81 @@
+Brazil	100
+Argentina	75
+Italy	74
+England	62
+Germany FR	62
+Spain	56
+France	55
+Netherlands	52
+Mexico	51
+Uruguay	48
+Germany	42
+Sweden	41
+Belgium	39
+Yugoslavia	34
+Chile	31
+Korea Republic	31
+Soviet Union	31
+Poland	30
+USA	30
+Switzerland	29
+Bulgaria	26
+Hungary	26
+Portugal	26
+Austria	25
+Paraguay	25
+Cameroon	23
+Czechoslovakia	23
+Scotland	23
+Colombia	20
+Nigeria	19
+Costa Rica	17
+Japan	17
+Croatia	16
+Denmark	16
+Romania	16
+Algeria	14
+"rn"">Republic of Ireland"	13
+Australia	13
+Morocco	13
+Northern Ireland	13
+Peru	13
+Saudi Arabia	13
+Ghana	12
+Tunisia	12
+Greece	11
+Ecuador	10
+Turkey	10
+C?te d'Ivoire	9
+Honduras	9
+Russia	9
+South Africa	9
+Korea DPR	7
+Norway	7
+El Salvador	6
+German DR	6
+IR Iran	6
+Iran	6
+New Zealand	6
+Slovenia	6
+Senegal	5
+Ukraine	5
+Wales	5
+Bolivia	4
+Slovakia	4
+"rn"">Bosnia and Herzegovina"	3
+"rn"">Serbia and Montenegro"	3
+"rn"">Trinidad and Tobago"	3
+"rn"">United Arab Emirates"	3
+Angola	3
+Canada	3
+China PR	3
+Czech Republic	3
+Egypt	3
+Haiti	3
+Iraq	3
+Israel	3
+Jamaica	3
+Kuwait	3
+Serbia	3
+Togo	3
+Zaire	3
