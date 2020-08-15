@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Visualization {
-    @RequestMapping("/TotalGoals")
-    public
+//    @RequestMapping("/TotalGoals")
+//    public
 }
