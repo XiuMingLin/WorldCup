@@ -55,6 +55,6 @@ public class MatchWinrateReduce extends Reducer<Text, IntWritable, Text, Text> {
         Rate.append(lose_Rate + "");
 
         if(Total_Match>=5)
-        context.write(new Text(key),new Text(Rate.toString()));
+        context.write(new Text(key + ","),new Text(Rate.toString()));
     }
 }

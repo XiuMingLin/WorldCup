@@ -1,23 +1,22 @@
-Brazil	100
-Argentina	75
+Germany	100
+Brazil	96
 Italy	74
+Argentina	71
 England	62
-Germany FR	62
 Spain	56
-France	55
-Netherlands	52
-Mexico	51
-Uruguay	48
-Germany	42
+France	53
+Mexico	50
+Netherlands	48
+Uruguay	47
 Sweden	41
-Belgium	39
+Belgium	37
 Yugoslavia	34
-Chile	31
 Korea Republic	31
 Soviet Union	31
+Chile	30
 Poland	30
-USA	30
-Switzerland	29
+USA	29
+Switzerland	28
 Bulgaria	26
 Hungary	26
 Portugal	26
@@ -26,15 +25,15 @@ Paraguay	25
 Cameroon	23
 Czechoslovakia	23
 Scotland	23
-Colombia	20
-Nigeria	19
-Costa Rica	17
+Colombia	18
+Nigeria	18
 Japan	17
 Croatia	16
 Denmark	16
 Romania	16
-Algeria	14
+Costa Rica	15
 "rn"">Republic of Ireland"	13
+Algeria	13
 Australia	13
 Morocco	13
 Northern Ireland	13
@@ -42,8 +41,8 @@ Peru	13
 Saudi Arabia	13
 Ghana	12
 Tunisia	12
-Greece	11
 Ecuador	10
+Greece	10
 Turkey	10
 C?te d'Ivoire	9
 Honduras	9

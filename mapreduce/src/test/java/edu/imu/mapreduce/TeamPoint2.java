@@ -1,8 +1,7 @@
 package edu.imu.mapreduce;
 
-
-import edu.imu.mapreduce.mr.TotalGoalsMapper;
-import edu.imu.mapreduce.mr.TotalGoalsReduce;
+import edu.imu.mapreduce.mr.TeamPointMapper2;
+import edu.imu.mapreduce.mr.TeamPointReduce2;
 import edu.imu.mapreduce.template.HadoopTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.fs.FileSystem;
@@ -24,7 +23,7 @@ import java.io.IOException;
 @SpringBootTest
 @RunWith(SpringJUnit4ClassRunner.class)
 @Slf4j
-public class TotalGoals {
+public class TeamPoint2 {
     @Autowired
     FileSystem fileSystem;
 
@@ -35,19 +34,20 @@ public class TotalGoals {
     private String nameNode;
     private String inputPath = "/input";
     private String outputPath = "/output";
-    private String inputFileName = "E://mapreduce//mapreduce//data//data.CSV";
-    private String outputFileName = "E://mapreduce//mapreduce//res//YearsTotalGoals.txt";
+    private String inputFile1Name = "E://mapreduce//mapreduce//res//TeamPoint1.CSV";
+    private String inputFile2Name = "E://mapreduce//mapreduce//res//TotalGoals.CSV";
+    private String outputFileName = "E://mapreduce//mapreduce//res//TeamPoint2.CSV";
 
     @Test
     public void run() throws IOException, ClassNotFoundException, InterruptedException {
         Job job = Job.getInstance();
 
         //设置本次job作业使用的mapper类是那个
-        job.setJarByClass(TotalGoals.class);
+        job.setJarByClass(TeamPoint2.class);
         //本次job作业使用的mapper类是那个？
-        job.setMapperClass(TotalGoalsMapper.class);
+        job.setMapperClass(TeamPointMapper2.class);
         //本次job作业使用的reducer类是那个
-        job.setReducerClass(TotalGoalsReduce.class);
+        job.setReducerClass(TeamPointReduce2.class);
         //本次job作业使用的reducer类的输出数据key类型
         job.setOutputKeyClass(Text.class);
         //本次job作业使用的reducer类的输出数据value类型
@@ -75,7 +75,8 @@ public class TotalGoals {
         }
         fileSystem.mkdirs(input);
         // 上传文件
-        hadoopTemplate.uploadFile(inputFileName, inputPath);
+        hadoopTemplate.uploadFile(inputFile1Name, inputPath);
+        hadoopTemplate.uploadFile(inputFile2Name, inputPath);
         // 执行MR
         run();
         // 下载结果

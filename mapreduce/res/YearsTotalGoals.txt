@@ -1,0 +1,383 @@
+1950,Bolivia	,0
+1950,Brazil	,22
+1950,Chile	,5
+1950,England	,2
+1950,Italy	,4
+1950,Mexico	,2
+1950,Paraguay	,2
+1950,Spain	,10
+1950,Sweden	,11
+1950,Switzerland	,4
+1950,USA	,4
+1950,Uruguay	,15
+1950,Yugoslavia	,7
+1954,Austria	,17
+1954,Belgium	,5
+1954,Brazil	,8
+1954,Czechoslovakia	,0
+1954,England	,8
+1954,France	,3
+1954,Germany	,25
+1954,Hungary	,27
+1954,Italy	,6
+1954,Korea Republic	,0
+1954,Mexico	,2
+1954,Scotland	,0
+1954,Switzerland	,11
+1954,Turkey	,10
+1954,Uruguay	,16
+1954,Yugoslavia	,2
+1958,Argentina	,5
+1958,Austria	,2
+1958,Brazil	,16
+1958,Czechoslovakia	,9
+1958,England	,4
+1958,France	,23
+1958,Germany	,12
+1958,Hungary	,7
+1958,Mexico	,1
+1958,Northern Ireland	,6
+1958,Paraguay	,9
+1958,Scotland	,4
+1958,Soviet Union	,5
+1958,Sweden	,12
+1958,Wales	,4
+1958,Yugoslavia	,7
+1962,Argentina	,2
+1962,Brazil	,14
+1962,Bulgaria	,1
+1962,Chile	,10
+1962,Colombia	,5
+1962,Czechoslovakia	,7
+1962,England	,5
+1962,Germany	,4
+1962,Hungary	,8
+1962,Italy	,3
+1962,Mexico	,3
+1962,Soviet Union	,9
+1962,Spain	,2
+1962,Switzerland	,2
+1962,Uruguay	,4
+1962,Yugoslavia	,10
+1966,Argentina	,4
+1966,Brazil	,4
+1966,Bulgaria	,1
+1966,Chile	,2
+1966,England	,11
+1966,France	,2
+1966,Germany	,15
+1966,Hungary	,8
+1966,Italy	,2
+1966,Korea DPR	,5
+1966,Mexico	,1
+1966,Portugal	,17
+1966,Soviet Union	,10
+1966,Spain	,4
+1966,Switzerland	,1
+1966,Uruguay	,2
+1970,Belgium	,4
+1970,Brazil	,19
+1970,Bulgaria	,5
+1970,Czechoslovakia	,2
+1970,El Salvador	,0
+1970,England	,4
+1970,Germany	,17
+1970,Israel	,1
+1970,Italy	,10
+1970,Mexico	,6
+1970,Morocco	,2
+1970,Peru	,9
+1970,Romania	,4
+1970,Soviet Union	,6
+1970,Sweden	,2
+1970,Uruguay	,4
+1974,Argentina	,9
+1974,Australia	,0
+1974,Brazil	,6
+1974,Bulgaria	,2
+1974,Chile	,1
+1974,German DR	,5
+1974,Germany	,13
+1974,Haiti	,2
+1974,Italy	,5
+1974,Netherlands	,15
+1974,Poland	,16
+1974,Scotland	,3
+1974,Sweden	,7
+1974,Uruguay	,1
+1974,Yugoslavia	,12
+1974,Zaire	,0
+1978,Argentina	,15
+1978,Austria	,7
+1978,Brazil	,10
+1978,France	,5
+1978,Germany	,10
+1978,Hungary	,3
+1978,IR Iran	,1
+1978,Iran	,1
+1978,Italy	,9
+1978,Mexico	,2
+1978,Netherlands	,15
+1978,Peru	,7
+1978,Poland	,6
+1978,Scotland	,5
+1978,Spain	,2
+1978,Sweden	,1
+1978,Tunisia	,3
+1982,Algeria	,5
+1982,Argentina	,8
+1982,Austria	,5
+1982,Belgium	,3
+1982,Brazil	,15
+1982,Cameroon	,1
+1982,Chile	,3
+1982,Czechoslovakia	,2
+1982,El Salvador	,1
+1982,England	,6
+1982,France	,16
+1982,Germany	,12
+1982,Honduras	,2
+1982,Hungary	,12
+1982,Italy	,12
+1982,Kuwait	,2
+1982,New Zealand	,2
+1982,Northern Ireland	,5
+1982,Peru	,2
+1982,Poland	,11
+1982,Scotland	,8
+1982,Soviet Union	,7
+1982,Spain	,4
+1982,Yugoslavia	,2
+1986,Algeria	,1
+1986,Argentina	,14
+1986,Belgium	,12
+1986,Brazil	,10
+1986,Bulgaria	,2
+1986,Canada	,0
+1986,Denmark	,10
+1986,England	,7
+1986,France	,12
+1986,Germany	,8
+1986,Hungary	,2
+1986,Iraq	,1
+1986,Italy	,5
+1986,Korea Republic	,4
+1986,Mexico	,6
+1986,Morocco	,3
+1986,Northern Ireland	,2
+1986,Paraguay	,4
+1986,Poland	,1
+1986,Portugal	,2
+1986,Scotland	,1
+1986,Soviet Union	,12
+1986,Spain	,11
+1986,Uruguay	,2
+1990,"rn"">Republic of Ireland"	,2
+1990,"rn"">United Arab Emirates"	,2
+1990,Argentina	,5
+1990,Austria	,2
+1990,Belgium	,6
+1990,Brazil	,4
+1990,Cameroon	,7
+1990,Colombia	,4
+1990,Costa Rica	,4
+1990,Czechoslovakia	,10
+1990,Egypt	,1
+1990,England	,8
+1990,Germany	,15
+1990,Italy	,10
+1990,Korea Republic	,1
+1990,Netherlands	,3
+1990,Romania	,4
+1990,Scotland	,2
+1990,Soviet Union	,4
+1990,Spain	,6
+1990,Sweden	,3
+1990,USA	,2
+1990,Uruguay	,2
+1990,Yugoslavia	,8
+1994,"rn"">Republic of Ireland"	,2
+1994,Argentina	,8
+1994,Belgium	,4
+1994,Bolivia	,1
+1994,Brazil	,11
+1994,Bulgaria	,10
+1994,Cameroon	,3
+1994,Colombia	,4
+1994,Germany	,9
+1994,Greece	,0
+1994,Italy	,8
+1994,Korea Republic	,4
+1994,Mexico	,4
+1994,Morocco	,2
+1994,Netherlands	,8
+1994,Nigeria	,7
+1994,Norway	,1
+1994,Romania	,10
+1994,Russia	,7
+1994,Saudi Arabia	,5
+1994,Spain	,10
+1994,Sweden	,15
+1994,Switzerland	,5
+1994,USA	,3
+1998,Argentina	,10
+1998,Austria	,3
+1998,Belgium	,3
+1998,Brazil	,14
+1998,Bulgaria	,1
+1998,Cameroon	,2
+1998,Chile	,5
+1998,Colombia	,1
+1998,Croatia	,11
+1998,Denmark	,9
+1998,England	,7
+1998,France	,15
+1998,Germany	,8
+1998,Iran	,2
+1998,Italy	,8
+1998,Jamaica	,3
+1998,Japan	,1
+1998,Korea Republic	,2
+1998,Mexico	,8
+1998,Morocco	,5
+1998,Netherlands	,13
+1998,Nigeria	,6
+1998,Norway	,5
+1998,Paraguay	,3
+1998,Romania	,4
+1998,Saudi Arabia	,2
+1998,Scotland	,2
+1998,South Africa	,3
+1998,Spain	,8
+1998,Tunisia	,1
+1998,USA	,1
+1998,Yugoslavia	,5
+2002,"rn"">Republic of Ireland"	,6
+2002,Argentina	,2
+2002,Belgium	,6
+2002,Brazil	,18
+2002,Cameroon	,2
+2002,China PR	,0
+2002,Costa Rica	,5
+2002,Croatia	,2
+2002,Denmark	,5
+2002,Ecuador	,2
+2002,England	,6
+2002,France	,0
+2002,Germany	,14
+2002,Italy	,5
+2002,Japan	,5
+2002,Korea Republic	,8
+2002,Mexico	,4
+2002,Nigeria	,1
+2002,Paraguay	,6
+2002,Poland	,3
+2002,Portugal	,6
+2002,Russia	,4
+2002,Saudi Arabia	,0
+2002,Senegal	,7
+2002,Slovenia	,2
+2002,South Africa	,5
+2002,Spain	,10
+2002,Sweden	,5
+2002,Tunisia	,1
+2002,Turkey	,10
+2002,USA	,7
+2002,Uruguay	,4
+2006,"rn"">Serbia and Montenegro"	,2
+2006,"rn"">Trinidad and Tobago"	,0
+2006,Angola	,1
+2006,Argentina	,11
+2006,Australia	,5
+2006,Brazil	,10
+2006,C?te d'Ivoire	,5
+2006,Costa Rica	,3
+2006,Croatia	,2
+2006,Czech Republic	,3
+2006,Ecuador	,5
+2006,England	,6
+2006,France	,9
+2006,Germany	,14
+2006,Ghana	,4
+2006,IR Iran	,0
+2006,Iran	,2
+2006,Italy	,12
+2006,Japan	,2
+2006,Korea Republic	,3
+2006,Mexico	,5
+2006,Netherlands	,3
+2006,Paraguay	,2
+2006,Poland	,2
+2006,Portugal	,7
+2006,Saudi Arabia	,2
+2006,Spain	,9
+2006,Sweden	,3
+2006,Switzerland	,4
+2006,Togo	,1
+2006,Tunisia	,3
+2006,USA	,2
+2006,Ukraine	,5
+2010,Algeria	,0
+2010,Argentina	,10
+2010,Australia	,3
+2010,Brazil	,9
+2010,C?te d'Ivoire	,4
+2010,Cameroon	,2
+2010,Chile	,3
+2010,Denmark	,3
+2010,England	,3
+2010,France	,1
+2010,Germany	,16
+2010,Ghana	,5
+2010,Greece	,2
+2010,Honduras	,0
+2010,Italy	,4
+2010,Japan	,4
+2010,Korea DPR	,1
+2010,Korea Republic	,6
+2010,Mexico	,4
+2010,Netherlands	,12
+2010,New Zealand	,2
+2010,Nigeria	,3
+2010,Paraguay	,3
+2010,Portugal	,7
+2010,Serbia	,2
+2010,Slovakia	,5
+2010,Slovenia	,3
+2010,South Africa	,3
+2010,Spain	,8
+2010,Switzerland	,1
+2010,USA	,5
+2010,Uruguay	,11
+2014,"rn"">Bosnia and Herzegovina"	,4
+2014,Algeria	,7
+2014,Argentina	,8
+2014,Australia	,3
+2014,Belgium	,6
+2014,Brazil	,11
+2014,C?te d'Ivoire	,4
+2014,Cameroon	,1
+2014,Chile	,6
+2014,Colombia	,12
+2014,Costa Rica	,5
+2014,Croatia	,6
+2014,Ecuador	,3
+2014,England	,2
+2014,France	,10
+2014,Germany	,18
+2014,Ghana	,4
+2014,Greece	,3
+2014,Honduras	,1
+2014,IR Iran	,1
+2014,Italy	,2
+2014,Japan	,2
+2014,Korea Republic	,3
+2014,Mexico	,5
+2014,Netherlands	,15
+2014,Nigeria	,3
+2014,Portugal	,4
+2014,Russia	,2
+2014,Spain	,4
+2014,Switzerland	,7
+2014,USA	,5
+2014,Uruguay	,4

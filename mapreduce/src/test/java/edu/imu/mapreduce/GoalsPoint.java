@@ -1,8 +1,7 @@
 package edu.imu.mapreduce;
 
-
-import edu.imu.mapreduce.mr.TotalGoalsMapper;
-import edu.imu.mapreduce.mr.TotalGoalsReduce;
+import edu.imu.mapreduce.mr.GoalsPointMapper;
+import edu.imu.mapreduce.mr.GoalsPointReduce;
 import edu.imu.mapreduce.template.HadoopTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.fs.FileSystem;
@@ -24,7 +23,8 @@ import java.io.IOException;
 @SpringBootTest
 @RunWith(SpringJUnit4ClassRunner.class)
 @Slf4j
-public class TotalGoals {
+
+public class GoalsPoint {
     @Autowired
     FileSystem fileSystem;
 
@@ -36,18 +36,18 @@ public class TotalGoals {
     private String inputPath = "/input";
     private String outputPath = "/output";
     private String inputFileName = "E://mapreduce//mapreduce//data//data.CSV";
-    private String outputFileName = "E://mapreduce//mapreduce//res//YearsTotalGoals.txt";
+    private String outputFileName = "E://mapreduce//mapreduce//res//TotalGoals.txt";
 
     @Test
     public void run() throws IOException, ClassNotFoundException, InterruptedException {
         Job job = Job.getInstance();
 
         //设置本次job作业使用的mapper类是那个
-        job.setJarByClass(TotalGoals.class);
+        job.setJarByClass(GoalsPoint.class);
         //本次job作业使用的mapper类是那个？
-        job.setMapperClass(TotalGoalsMapper.class);
+        job.setMapperClass(GoalsPointMapper.class);
         //本次job作业使用的reducer类是那个
-        job.setReducerClass(TotalGoalsReduce.class);
+        job.setReducerClass(GoalsPointReduce.class);
         //本次job作业使用的reducer类的输出数据key类型
         job.setOutputKeyClass(Text.class);
         //本次job作业使用的reducer类的输出数据value类型

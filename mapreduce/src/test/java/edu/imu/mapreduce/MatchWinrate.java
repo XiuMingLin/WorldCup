@@ -36,8 +36,8 @@ public class MatchWinrate {
     private String nameNode;
     private String inputPath = "/input";
     private String outputPath = "/output";
-    private String inputFileName = "D://Study//Github//WorldCup//mapreduce//data//WorldCupMatches.CSV";
-    private String outputFileName = "D://Study//Github//WorldCup//mapreduce//res//MatchWinrate.txt";
+    private String inputFileName = "E://mapreduce//mapreduce//data//data.CSV";
+    private String outputFileName = "E://mapreduce//mapreduce//res//MatchWinrate.txt";
 
     @Test
     public void run() throws IOException, ClassNotFoundException, InterruptedException {

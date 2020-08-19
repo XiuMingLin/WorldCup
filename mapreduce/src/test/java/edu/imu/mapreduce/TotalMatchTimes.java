@@ -35,7 +35,7 @@ public class TotalMatchTimes {
     private String nameNode;
     private String inputPath = "/input";
     private String outputPath = "/output";
-    private String inputFileName = "E://data.CSV";
+    private String inputFileName = "E://mapreduce//mapreduce//data//data.CSV";
     private String outputFileName = "E://mapreduce//mapreduce//res//TotalMatchTimes.txt";
 
     @Test

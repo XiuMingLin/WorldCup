@@ -52,6 +52,7 @@ public class MatchWinrateMapper extends Mapper<Object, Text, Text, IntWritable> 
         context.write(new Text(home_away_country.toString()),new IntWritable(home_result));
         context.write(new Text(away_home_country.toString()),new IntWritable(away_result));
 
+        log.info("county" + home_away_country.toString() + " score" + home_result);
 
     }
 }

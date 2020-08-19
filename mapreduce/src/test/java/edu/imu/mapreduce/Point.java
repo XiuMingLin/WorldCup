@@ -1,8 +1,8 @@
 package edu.imu.mapreduce;
 
 
-import edu.imu.mapreduce.mr.TotalGoalsMapper;
-import edu.imu.mapreduce.mr.TotalGoalsReduce;
+import edu.imu.mapreduce.mr.PointMapper;
+import edu.imu.mapreduce.mr.PointReduce;
 import edu.imu.mapreduce.template.HadoopTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.fs.FileSystem;
@@ -24,7 +24,8 @@ import java.io.IOException;
 @SpringBootTest
 @RunWith(SpringJUnit4ClassRunner.class)
 @Slf4j
-public class TotalGoals {
+
+public class Point  {
     @Autowired
     FileSystem fileSystem;
 
@@ -36,18 +37,18 @@ public class TotalGoals {
     private String inputPath = "/input";
     private String outputPath = "/output";
     private String inputFileName = "E://mapreduce//mapreduce//data//data.CSV";
-    private String outputFileName = "E://mapreduce//mapreduce//res//YearsTotalGoals.txt";
+    private String outputFileName = "E://mapreduce//mapreduce//res//Point.txt";
 
     @Test
     public void run() throws IOException, ClassNotFoundException, InterruptedException {
         Job job = Job.getInstance();
 
         //设置本次job作业使用的mapper类是那个
-        job.setJarByClass(TotalGoals.class);
+        job.setJarByClass(Point.class);
         //本次job作业使用的mapper类是那个？
-        job.setMapperClass(TotalGoalsMapper.class);
+        job.setMapperClass(PointMapper.class);
         //本次job作业使用的reducer类是那个
-        job.setReducerClass(TotalGoalsReduce.class);
+        job.setReducerClass(PointReduce.class);
         //本次job作业使用的reducer类的输出数据key类型
         job.setOutputKeyClass(Text.class);
         //本次job作业使用的reducer类的输出数据value类型
@@ -59,7 +60,7 @@ public class TotalGoals {
             fileSystem.delete(out, true);//true的意思是，就算output里面有东西，也一带删除
         }
         //本次job作业要处理的原始数据所在的路径
-        FileInputFormat.addInputPath(job, new Path(nameNode + inputPath));;
+        FileInputFormat.addInputPath(job, new Path(nameNode + inputPath));
         //本次job作业产生的结果输出路径
         FileOutputFormat.setOutputPath(job, out);
         //提交本次作业
