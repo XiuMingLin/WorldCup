@@ -53,17 +53,17 @@
 
   // 附加信息内容。
   // left label
-  itemLabel: "左侧文字",
+  itemLabel: "队伍名",
 
   // right label
-  typeLabel: "右侧文字",
+  typeLabel: "",
 
   // 榜首项目信息的水平位置 。
   // Top item information horizontal location
   item_x: 250,
 
   // 时间点间隔时间。
-  interval_time: 1,
+  interval_time: 2,
 
   // 上方文字水平高度。
   text_y: -50,

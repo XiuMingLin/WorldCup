@@ -1,0 +1,384 @@
+name,type,value,date
+"Bolivia	",country,0,1950
+"Brazil	",country,22,1950
+"Chile	",country,5,1950
+"England	",country,2,1950
+"Italy	",country,4,1950
+"Mexico	",country,2,1950
+"Paraguay	",country,2,1950
+"Spain	",country,10,1950
+"Sweden	",country,11,1950
+"Switzerland	",country,4,1950
+"USA	",country,4,1950
+"Uruguay	",country,15,1950
+"Yugoslavia	",country,7,1950
+"Austria	",country,17,1954
+"Belgium	",country,5,1954
+"Brazil	",country,8,1954
+"Czechoslovakia	",country,0,1954
+"England	",country,8,1954
+"France	",country,3,1954
+"Germany FR	",country,25,1954
+"Hungary	",country,27,1954
+"Italy	",country,6,1954
+"Korea Republic	",country,0,1954
+"Mexico	",country,2,1954
+"Scotland	",country,0,1954
+"Switzerland	",country,11,1954
+"Turkey	",country,10,1954
+"Uruguay	",country,16,1954
+"Yugoslavia	",country,2,1954
+"Argentina	",country,5,1958
+"Austria	",country,2,1958
+"Brazil	",country,16,1958
+"Czechoslovakia	",country,9,1958
+"England	",country,4,1958
+"France	",country,23,1958
+"Germany FR	",country,12,1958
+"Hungary	",country,7,1958
+"Mexico	",country,1,1958
+"Northern Ireland	",country,6,1958
+"Paraguay	",country,9,1958
+"Scotland	",country,4,1958
+"Soviet Union	",country,5,1958
+"Sweden	",country,12,1958
+"Wales	",country,4,1958
+"Yugoslavia	",country,7,1958
+"Argentina	",country,2,1962
+"Brazil	",country,14,1962
+"Bulgaria	",country,1,1962
+"Chile	",country,10,1962
+"Colombia	",country,5,1962
+"Czechoslovakia	",country,7,1962
+"England	",country,5,1962
+"Germany FR	",country,4,1962
+"Hungary	",country,8,1962
+"Italy	",country,3,1962
+"Mexico	",country,3,1962
+"Soviet Union	",country,9,1962
+"Spain	",country,2,1962
+"Switzerland	",country,2,1962
+"Uruguay	",country,4,1962
+"Yugoslavia	",country,10,1962
+"Argentina	",country,4,1966
+"Brazil	",country,4,1966
+"Bulgaria	",country,1,1966
+"Chile	",country,2,1966
+"England	",country,11,1966
+"France	",country,2,1966
+"Germany FR	",country,15,1966
+"Hungary	",country,8,1966
+"Italy	",country,2,1966
+"Korea DPR	",country,5,1966
+"Mexico	",country,1,1966
+"Portugal	",country,17,1966
+"Soviet Union	",country,10,1966
+"Spain	",country,4,1966
+"Switzerland	",country,1,1966
+"Uruguay	",country,2,1966
+"Belgium	",country,4,1970
+"Brazil	",country,19,1970
+"Bulgaria	",country,5,1970
+"Czechoslovakia	",country,2,1970
+"El Salvador	",country,0,1970
+"England	",country,4,1970
+"Germany FR	",country,17,1970
+"Israel	",country,1,1970
+"Italy	",country,10,1970
+"Mexico	",country,6,1970
+"Morocco	",country,2,1970
+"Peru	",country,9,1970
+"Romania	",country,4,1970
+"Soviet Union	",country,6,1970
+"Sweden	",country,2,1970
+"Uruguay	",country,4,1970
+"Argentina	",country,9,1974
+"Australia	",country,0,1974
+"Brazil	",country,6,1974
+"Bulgaria	",country,2,1974
+"Chile	",country,1,1974
+"German DR	",country,5,1974
+"Germany FR	",country,13,1974
+"Haiti	",country,2,1974
+"Italy	",country,5,1974
+"Netherlands	",country,15,1974
+"Poland	",country,16,1974
+"Scotland	",country,3,1974
+"Sweden	",country,7,1974
+"Uruguay	",country,1,1974
+"Yugoslavia	",country,12,1974
+"Zaire	",country,0,1974
+"Argentina	",country,15,1978
+"Austria	",country,7,1978
+"Brazil	",country,10,1978
+"France	",country,5,1978
+"Germany FR	",country,10,1978
+"Hungary	",country,3,1978
+"IR Iran	",country,1,1978
+"Iran	",country,1,1978
+"Italy	",country,9,1978
+"Mexico	",country,2,1978
+"Netherlands	",country,15,1978
+"Peru	",country,7,1978
+"Poland	",country,6,1978
+"Scotland	",country,5,1978
+"Spain	",country,2,1978
+"Sweden	",country,1,1978
+"Tunisia	",country,3,1978
+"Algeria	",country,5,1982
+"Argentina	",country,8,1982
+"Austria	",country,5,1982
+"Belgium	",country,3,1982
+"Brazil	",country,15,1982
+"Cameroon	",country,1,1982
+"Chile	",country,3,1982
+"Czechoslovakia	",country,2,1982
+"El Salvador	",country,1,1982
+"England	",country,6,1982
+"France	",country,16,1982
+"Germany FR	",country,12,1982
+"Honduras	",country,2,1982
+"Hungary	",country,12,1982
+"Italy	",country,12,1982
+"Kuwait	",country,2,1982
+"New Zealand	",country,2,1982
+"Northern Ireland	",country,5,1982
+"Peru	",country,2,1982
+"Poland	",country,11,1982
+"Scotland	",country,8,1982
+"Soviet Union	",country,7,1982
+"Spain	",country,4,1982
+"Yugoslavia	",country,2,1982
+"Algeria	",country,1,1986
+"Argentina	",country,14,1986
+"Belgium	",country,12,1986
+"Brazil	",country,10,1986
+"Bulgaria	",country,2,1986
+"Canada	",country,0,1986
+"Denmark	",country,10,1986
+"England	",country,7,1986
+"France	",country,12,1986
+"Germany FR	",country,8,1986
+"Hungary	",country,2,1986
+"Iraq	",country,1,1986
+"Italy	",country,5,1986
+"Korea Republic	",country,4,1986
+"Mexico	",country,6,1986
+"Morocco	",country,3,1986
+"Northern Ireland	",country,2,1986
+"Paraguay	",country,4,1986
+"Poland	",country,1,1986
+"Portugal	",country,2,1986
+"Scotland	",country,1,1986
+"Soviet Union	",country,12,1986
+"Spain	",country,11,1986
+"Uruguay	",country,2,1986
+"rn"">Republic of Ireland	",country,2,1990
+"rn"">United Arab Emirates	",country,2,1990
+"Argentina	",country,5,1990
+"Austria	",country,2,1990
+"Belgium	",country,6,1990
+"Brazil	",country,4,1990
+"Cameroon	",country,7,1990
+"Colombia	",country,4,1990
+"Costa Rica	",country,4,1990
+"Czechoslovakia	",country,10,1990
+"Egypt	",country,1,1990
+"England	",country,8,1990
+"Germany FR	",country,15,1990
+"Italy	",country,10,1990
+"Korea Republic	",country,1,1990
+"Netherlands	",country,3,1990
+"Romania	",country,4,1990
+"Scotland	",country,2,1990
+"Soviet Union	",country,4,1990
+"Spain	",country,6,1990
+"Sweden	",country,3,1990
+"USA	",country,2,1990
+"Uruguay	",country,2,1990
+"Yugoslavia	",country,8,1990
+"Republic of Ireland	",country,2,1994
+"Argentina	",country,8,1994
+"Belgium	",country,4,1994
+"Bolivia	",country,1,1994
+"Brazil	",country,11,1994
+"Bulgaria	",country,10,1994
+"Cameroon	",country,3,1994
+"Colombia	",country,4,1994
+"Germany	",country,9,1994
+"Greece	",country,0,1994
+"Italy	",country,8,1994
+"Korea Republic	",country,4,1994
+"Mexico	",country,4,1994
+"Morocco	",country,2,1994
+"Netherlands	",country,8,1994
+"Nigeria	",country,7,1994
+"Norway	",country,1,1994
+"Romania	",country,10,1994
+"Russia	",country,7,1994
+"Saudi Arabia	",country,5,1994
+"Spain	",country,10,1994
+"Sweden	",country,15,1994
+"Switzerland	",country,5,1994
+"USA	",country,3,1994
+"Argentina	",country,10,1998
+"Austria	",country,3,1998
+"Belgium	",country,3,1998
+"Brazil	",country,14,1998
+"Bulgaria	",country,1,1998
+"Cameroon	",country,2,1998
+"Chile	",country,5,1998
+"Colombia	",country,1,1998
+"Croatia	",country,11,1998
+"Denmark	",country,9,1998
+"England	",country,7,1998
+"France	",country,15,1998
+"Germany	",country,8,1998
+"Iran	",country,2,1998
+"Italy	",country,8,1998
+"Jamaica	",country,3,1998
+"Japan	",country,1,1998
+"Korea Republic	",country,2,1998
+"Mexico	",country,8,1998
+"Morocco	",country,5,1998
+"Netherlands	",country,13,1998
+"Nigeria	",country,6,1998
+"Norway	",country,5,1998
+"Paraguay	",country,3,1998
+"Romania	",country,4,1998
+"Saudi Arabia	",country,2,1998
+"Scotland	",country,2,1998
+"South Africa	",country,3,1998
+"Spain	",country,8,1998
+"Tunisia	",country,1,1998
+"USA	",country,1,1998
+"Yugoslavia	",country,5,1998
+"Republic of Ireland	",country,6,2002
+"Argentina	",country,2,2002
+"Belgium	",country,6,2002
+"Brazil	",country,18,2002
+"Cameroon	",country,2,2002
+"China PR	",country,0,2002
+"Costa Rica	",country,5,2002
+"Croatia	",country,2,2002
+"Denmark	",country,5,2002
+"Ecuador	",country,2,2002
+"England	",country,6,2002
+"France	",country,0,2002
+"Germany	",country,14,2002
+"Italy	",country,5,2002
+"Japan	",country,5,2002
+"Korea Republic	",country,8,2002
+"Mexico	",country,4,2002
+"Nigeria	",country,1,2002
+"Paraguay	",country,6,2002
+"Poland	",country,3,2002
+"Portugal	",country,6,2002
+"Russia	",country,4,2002
+"Saudi Arabia	",country,0,2002
+"Senegal	",country,7,2002
+"Slovenia	",country,2,2002
+"South Africa	",country,5,2002
+"Spain	",country,10,2002
+"Sweden	",country,5,2002
+"Tunisia	",country,1,2002
+"Turkey	",country,10,2002
+"USA	",country,7,2002
+"Uruguay	",country,4,2002
+"Serbia and Montenegro	",country,2,2006
+"Trinidad and Tobago	",country,0,2006
+"Angola	",country,1,2006
+"Argentina	",country,11,2006
+"Australia	",country,5,2006
+"Brazil	",country,10,2006
+"Ivoire	",country,5,2006
+"Costa Rica	",country,3,2006
+"Croatia	",country,2,2006
+"Czech Republic	",country,3,2006
+"Ecuador	",country,5,2006
+"England	",country,6,2006
+"France	",country,9,2006
+"Germany	",country,14,2006
+"Ghana	",country,4,2006
+"IR Iran	",country,0,2006
+"Iran	",country,2,2006
+"Italy	",country,12,2006
+"Japan	",country,2,2006
+"Korea Republic	",country,3,2006
+"Mexico	",country,5,2006
+"Netherlands	",country,3,2006
+"Paraguay	",country,2,2006
+"Poland	",country,2,2006
+"Portugal	",country,7,2006
+"Saudi Arabia	",country,2,2006
+"Spain	",country,9,2006
+"Sweden	",country,3,2006
+"Switzerland	",country,4,2006
+"Togo	",country,1,2006
+"Tunisia	",country,3,2006
+"USA	",country,2,2006
+"Ukraine	",country,5,2006
+"Algeria	",country,0,2010
+"Argentina	",country,10,2010
+"Australia	",country,3,2010
+"Brazil	",country,9,2010
+"C?te d'Ivoire	",country,4,2010
+"Cameroon	",country,2,2010
+"Chile	",country,3,2010
+"Denmark	",country,3,2010
+"England	",country,3,2010
+"France	",country,1,2010
+"Germany	",country,16,2010
+"Ghana	",country,5,2010
+"Greece	",country,2,2010
+"Honduras	",country,0,2010
+"Italy	",country,4,2010
+"Japan	",country,4,2010
+"Korea DPR	",country,1,2010
+"Korea Republic	",country,6,2010
+"Mexico	",country,4,2010
+"Netherlands	",country,12,2010
+"New Zealand	",country,2,2010
+"Nigeria	",country,3,2010
+"Paraguay	",country,3,2010
+"Portugal	",country,7,2010
+"Serbia	",country,2,2010
+"Slovakia	",country,5,2010
+"Slovenia	",country,3,2010
+"South Africa	",country,3,2010
+"Spain	",country,8,2010
+"Switzerland	",country,1,2010
+"USA	",country,5,2010
+"Uruguay	",country,11,2010
+"Bosnia and Herzegovina	",country,4,2014
+"Algeria	",country,8,2014
+"Argentina	",country,10,2014
+"Australia	",country,3,2014
+"Belgium	",country,8,2014
+"Brazil	",country,15,2014
+"Ivoire	",country,4,2014
+"Cameroon	",country,1,2014
+"Chile	",country,7,2014
+"Colombia	",country,15,2014
+"Costa Rica	",country,6,2014
+"Croatia	",country,6,2014
+"Ecuador	",country,3,2014
+"England	",country,2,2014
+"France	",country,12,2014
+"Germany	",country,29,2014
+"Ghana	",country,4,2014
+"Greece	",country,4,2014
+"Honduras	",country,1,2014
+"IR Iran	",country,1,2014
+"Italy	",country,2,2014
+"Japan	",country,2,2014
+"Korea Republic	",country,3,2014
+"Mexico	",country,6,2014
+"Netherlands	",country,20,2014
+"Nigeria	",country,3,2014
+"Portugal	",country,4,2014
+"Russia	",country,2,2014
+"Spain	",country,4,2014
+"Switzerland	",country,7,2014
+"USA	",country,6,2014
+"Uruguay	",country,4,2014

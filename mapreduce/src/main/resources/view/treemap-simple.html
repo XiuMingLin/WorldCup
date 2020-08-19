@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 100%"></div>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xfhhaTThl11qYVrqLZii6w8qE5ggnhrY&__ec_v__=20190126"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+option = {
+    series: [{
+        type: 'treemap',
+        data: [{
+            name: 'nodeA',            // First tree
+            value: 10,
+            children: [{
+                name: 'nodeAa',       // First leaf of first tree
+                value: 4
+            }, {
+                name: 'nodeAb',       // Second leaf of first tree
+                value: 6
+            }]
+        }, {
+            name: 'nodeB',            // Second tree
+            value: 20,
+            children: [{
+                name: 'nodeBa',       // Son of first tree
+                value: 20,
+                children: [{
+                    name: 'nodeBa1',  // Granson of first tree
+                    value: 20
+                }]
+            }]
+        }]
+    }]
+};
+;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+
+function ajax(){
+    $.ajax({
+        url: "http://localhost/Point.CSV",
+        type: "GET",
+        dataType: "TEXT",
+        success: (result) => {
+            res = [];
+            if(result){
+                for(var i = 0; i < result.name.length; i++){
+                    res.push({
+                        name : result.name[i],
+                        value : result.value[i]
+                    })
+                }
+                myChart.hideLoading();
+                myChart.setOption({
+                    series:[{
+                        type: 'treemap',
+                        data : res
+                    }]
+                })
+            }
+        },error : (errorMsg) => {
+            //请求失败时执行该函数
+            alert("图表请求数据失败!");
+            myChart.hideLoading();
+        }
+    })
+}
+       </script>
+   </body>
+</html>

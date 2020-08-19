@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <meta charset="utf-8">
+    <title>球队评分</title>
+</head>
+
+<body style="height: 100%; margin: 0;text-align: center;">
+    <h1>球队评分</h1>
+    <h2>评分依据</h2>
+    <p>冠军数*10+亚军数*5+季军数*3+殿军数+队史总进球数/10+击败队伍得分/10</p>
+    <div id="container" style="height: 100%"></div>
+    <script src="/jquery.min.js"></script>
+    <script src="/d3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript">
+        var dom = document.getElementById("container");
+        var myChart = echarts.init(dom);
+        var app = {};
+        option = null;
+        option = {
+            series: [{
+                type: 'treemap',
+                data: [{
+                    name: 'nodeA',            // First tree
+                    value: 10,
+                    children: [{
+                        name: 'nodeAa',       // First leaf of first tree
+                        value: 4
+                    }, {
+                        name: 'nodeAb',       // Second leaf of first tree
+                        value: 6
+                    }]
+                }, {
+                    name: 'nodeB',            // Second tree
+                    value: 20,
+                    children: [{
+                        name: 'nodeBa',       // Son of first tree
+                        value: 20,
+                        children: [{
+                            name: 'nodeBa1',  // Granson of first tree
+                            value: 20
+                        }]
+                    }]
+                }]
+            }]
+        };
+        ;
+        if (option && typeof option === "object") {
+            myChart.setOption(option, true);
+        }
+
+        function ajax() {
+            $.ajax({
+                url: "http://123.56.235.95/Point.CSV",
+                type: "GET",
+                dataType: "TEXT",
+                success: (result) => {
+                    const r = d3.csvParse(result);
+                    const res = [];
+                    if (r) {
+                        for (var i = 0; i < r.length; i++) {
+                            res.push({
+                                name: r[i].name+"\n"+Number(r[i].value),
+                                value: Number(r[i].value)
+                            })
+                        }
+                        console.log(res);
+                        myChart.hideLoading();
+                        myChart.setOption({
+                            series: [{
+                                type: 'treemap',
+                                data: res
+                            }]
+                        })
+                    }
+                }, error: (errorMsg) => {
+                    alert("图表请求数据失败!");
+                    myChart.hideLoading();
+                }
+            })
+        }
+        ajax();
+    </script>
+</body>
+
+</html>
